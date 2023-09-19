@@ -19,9 +19,3 @@ function changeText() {
 
 }
     
-function changeTextBack() {
-
-
-}
-
-
