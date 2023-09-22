@@ -1,21 +1,9 @@
+// declare id/class variables
+const helloTag = document.querySelector(".helloTag");
+const button1Id = document.querySelector("#button1Id");
 
-
-function changeText() {
-    // change heading text when pressing button
-    var heading = document.getElementById('header1id');
-    heading.innerHTML = "Goodbye World!";
-    
-    
-    // Popup picture when pressing button
-    document.getElementById('nuke1')
-    .style.display = "block";
-    document.getElementById('button1id')
-
-    // Change text of button on click
-    buttonTextChange=document.getElementById("button1id")
-     buttonTextChange.innerHTML = "Repair world";
-
-
-
-}
-    
+// add event listener and function to button.
+button1Id.addEventListener("click",
+function (event) {
+    helloTag.innerHTML="Goodbye world";
+})
